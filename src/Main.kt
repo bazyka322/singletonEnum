@@ -99,8 +99,8 @@ fun getSeasonName(season: Season): String{
     when(season){
         Season.WINTER -> return "зима"
         Season.SPRING -> return  "весна"
-        Season.SUMMER_LOVE -> return "лето"
-        Season.AUTISM -> return "осень"
+        Season.SUMMER -> return "лето"
+        Season.AUTUMN -> return "осень"
     }
 }
 
@@ -136,8 +136,8 @@ fun main() {
             4 -> {
                 val season1 = Season.WINTER
                 val season2 = Season.SPRING
-                val season3 = Season.SUMMER_LOVE
-                val season4 = Season.AUTISM
+                val season3 = Season.SUMMER
+                val season4 = Season.AUTUMN
                 println(getSeasonName(season1))
                 println(getSeasonName(season2))
                 println(getSeasonName(season3))
